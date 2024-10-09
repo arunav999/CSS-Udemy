@@ -1,6 +1,13 @@
 * {
   font-family: sans-serif;
   line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
 }
 
 article {
@@ -14,8 +21,18 @@ h2 {
   font-size: 22px;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 35px 0 20px 0;
+}
+
 p strong {
   font-size: 25px;
+}
+
+.dress-up {
+  margin: 20px 0;
 }
 
 .ship {
@@ -35,26 +52,28 @@ a:active {
   text-decoration: none;
 }
 
-li {
-  list-style: square;
+ul {
+  margin-left: 20px;
 }
 
-h3 {
-  text-transform: uppercase;
-  font-size: 16px;
+li {
+  list-style: square;
+  padding-bottom: 15px;
 }
 
 button {
   text-transform: uppercase;
   color: #fff;
   background-color: #000;
-  font-size: 16px;
   border: none;
+  width: 100%;
+  font-size: 22px;
+  padding: 20px;
 }
 
 button:hover {
   color: #000;
   background-color: #fff;
-  border: none;
+  border-top: 5px solid #000;
   cursor: pointer;
 }
