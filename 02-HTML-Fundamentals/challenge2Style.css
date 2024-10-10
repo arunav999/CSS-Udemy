@@ -16,6 +16,7 @@
 
 article {
   border: 5px solid black;
+  position: relative;
 }
 
 h2 {
@@ -44,6 +45,20 @@ p strong {
   font-weight: 700;
   color: #9f9b9b;
   font-size: 12px;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
 }
 
 a,
@@ -80,4 +95,36 @@ button:hover {
   background-color: #fff;
   border-top: 5px solid #000;
   cursor: pointer;
+}
+
+.colors {
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+.color {
+  margin-right: 10px;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.black {
+  color: #000;
+  background-color: #000;
+}
+.blue {
+  background-color: #2f6ee2;
+}
+.red {
+  background-color: #ec2f2f;
+}
+.yellow {
+  background-color: #f0bf1e;
+}
+.green {
+  background-color: #90cc20;
+}
+.brown {
+  background-color: #885214;
 }
