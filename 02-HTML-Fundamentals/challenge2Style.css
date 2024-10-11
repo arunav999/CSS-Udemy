@@ -3,6 +3,7 @@
   line-height: 1.4;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -15,7 +16,7 @@
 }
 
 article {
-  border: 5px solid black;
+  border: 4px solid black;
   position: relative;
 }
 
@@ -32,12 +33,14 @@ h3 {
   margin: 35px 0 20px 0;
 }
 
-p strong {
-  font-size: 25px;
-}
-
 .dress-up {
   margin: 20px 0;
+  clear: both;
+}
+
+.price {
+  font-size: 24px;
+  float: left;
 }
 
 .ship {
@@ -45,6 +48,8 @@ p strong {
   font-weight: 700;
   color: #9f9b9b;
   font-size: 12px;
+  float: right;
+  margin-top: 8px;
 }
 
 .sale {
@@ -127,4 +132,21 @@ button:hover {
 }
 .brown {
   background-color: #885214;
+}
+
+.img-contain {
+  float: left;
+  margin-right: 40px;
+}
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.product-details {
+  width: 243px;
+  float: left;
+  margin-top: -10px;
 }
